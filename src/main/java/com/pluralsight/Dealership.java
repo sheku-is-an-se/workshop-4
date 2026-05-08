@@ -49,7 +49,7 @@ public class Dealership {
     }
 
     public void addVehicle(Vehicle vehicle) {
-
+        inventory.add(vehicle);
     }
 
     public List<Vehicle> removeVehicle(Vehicle vehicle) {
